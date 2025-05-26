@@ -6,7 +6,7 @@ This project demonstrates a secure, serverless ETL pipeline that retrieves sched
 
 ## 🧩 Architecture Overview
 
-![Architecture](diagrams/architecture.png) *(optional)*
+![Architecture](diagrams/architecture.png)
 
 1. **AWS Lambda (Docker Image)**  
    - Authenticates to the Calendly API using a secure API key stored in **Secrets Manager**  
