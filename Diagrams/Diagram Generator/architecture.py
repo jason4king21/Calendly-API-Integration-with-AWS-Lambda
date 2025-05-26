@@ -9,7 +9,7 @@ from diagrams.aws.security import SecretsManager
 from diagrams.aws.storage import S3
 
 
-with Diagram("Calendly API ETL Pipeline", show=True, filename="diagrams/architecture", outformat="png"):
+with Diagram("Calendly API ETL Pipeline", show=False, filename="diagrams/architecture", outformat="png"):
     github = Github("GitHub Actions")
     docker = Docker("Docker Image")
     ecr = ECR("ECR Repo")
